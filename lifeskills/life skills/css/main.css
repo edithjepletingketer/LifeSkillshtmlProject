@@ -1,0 +1,30 @@
+body{margin: 0px;
+	padding: 0px;
+	background-color: rgb(238, 130, 238);
+}
+
+
+h1{
+color: black;
+background-color: blue;
+border-width: 10px;
+border-color: white;
+border-style: solid; 
+padding: 40px;
+text-align: center;
+}
+
+.centre_content {
+background-color: hsl(248, 53%, 58%);
+border-width: 5px;
+border-color: black;
+border-style: solid;
+padding: 100px;
+text-align: center;
+
+
+
+
+
+
+}

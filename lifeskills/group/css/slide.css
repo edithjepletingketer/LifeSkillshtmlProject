@@ -1,0 +1,54 @@
+.edith{
+
+	width: 900px;
+	margin:0 auto;
+
+}
+
+
+.category,
+.title,
+.footer {
+  position: -webkit-sticky; /* Required for Safari */
+  position: sticky;
+  height: 50px;
+}
+
+.category {
+  top: 0;
+  background-color: #ffb3b3;
+  
+}
+
+.title {
+  top: 0;
+  background-color: blue;
+}
+
+.footer {
+  bottom: 100px;
+  z-index: -1;
+}
+
+
+.edith img{
+	width: 800px;
+}
+
+
+
+article {
+  background-image: linear-gradient(
+    to bottom,
+    transparent 50px,
+    #0000FF 50px,
+    #ECF8FB calc(100% - 50px),
+    transparent 0
+  );
+  padding-left:20px;
+	padding-right: 20px; 
+  margin: auto auto 50px auto;
+  font-style: arial;
+    font-size: 20px;
+    padding-bottom: 20px;
+}

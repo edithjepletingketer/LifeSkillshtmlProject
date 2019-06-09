@@ -1,0 +1,76 @@
+/*body{
+	
+	
+ 
+  background: linear-gradient(#F6E007,#ED08A1);
+}
+
+.edith{
+width: 900px;
+padding-right: 20px;
+padding-left: 30px;
+background-color: white;
+font-style: arial;
+font-size: 20px;
+
+}
+.edith img{
+	min-width: 200px;
+}*/
+.edith{
+
+	width: 880px;
+	margin:0 auto;
+
+}
+
+
+.category,
+.title,
+.footer {
+  position: -webkit-sticky; /* Required for Safari */
+  position: sticky;
+  height: 100px;
+}
+
+.category {
+  top: 0;
+  background-color: #ffb3b3;
+  
+}
+
+.title {
+  top: 0;
+  background-color: grey;
+
+}
+
+.footer {
+  bottom: 100px;
+  z-index: -1;
+}
+
+
+.edith img{
+	width: 400px;
+	min-height: 100px;
+	padding-left: 200px;
+}
+
+
+
+article {
+  background-image: linear-gradient(
+    to bottom,
+    transparent 100px,
+    #c4c9d1 50px,
+    #edeff2 calc(100% - 100px),
+    transparent 0
+  );
+  padding-left:20px;
+	padding-right: 20px; 
+  margin: auto auto 50px auto;
+  font-style: arial;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
